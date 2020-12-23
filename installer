@@ -1,0 +1,8 @@
+#!/bin/bash
+
+website="https://riverside.rocks"
+
+echo "Installing..."
+wget ${website}/cli.php
+alias joke="php cli.php"
+echo "All done! You can run the CLI with joke"
